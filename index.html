@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Clipboard - Your Ultimate Productivity Partner</title>
+    <meta name="description"
+        content="Boost your productivity with Smart Clipboard. Automatically copy text selections, access clipboard history via right-click, and quick-paste (Alt+Click) instantly.">
+    <meta name="keywords"
+        content="chrome extension, clipboard history, auto copy paste, productivity tool, text selection, smart clipboard">
+    <meta name="author" content="M Nadeem Akhtar">
+    <link rel="canonical" href="https://your-github-username.github.io/smart-clipboard-website/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-github-username.github.io/smart-clipboard-website/">
+    <meta property="og:title" content="Smart Clipboard - Auto-Copy & Quick Paste Extension">
+    <meta property="og:description"
+        content="Boost your productivity with Smart Clipboard. Automatically copy text selections and access clipboard history via right-click.">
+    <meta property="og:image" content="assets/logo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://your-github-username.github.io/smart-clipboard-website/">
+    <meta property="twitter:title" content="Smart Clipboard - Auto-Copy & Quick Paste Extension">
+    <meta property="twitter:description"
+        content="Boost your productivity with Smart Clipboard. Automatically copy text selections and access clipboard history via right-click.">
+    <meta property="twitter:image" content="assets/logo.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="128x128" href="assets/logo.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="container nav-container">
+            <a href="#" class="brand">
+                <img src="assets/logo.png" alt="Smart Clipboard Logo" class="brand-logo">
+                <span class="brand-name">Smart Clipboard</span>
+            </a>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How it works</a>
+                <a href="privacy-policy.html">Privacy</a>
+                <a href="https://chrome.google.com/webstore" target="_blank" class="btn btn-sm btn-primary">Install
+                    Extension <i class="fa-brands fa-chrome"></i></a>
+            </div>
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg-glow"></div>
+        <div class="container hero-container">
+            <div class="hero-content fade-up">
+                <div class="badge">🚀 Version 1.7 Available Now</div>
+                <h1 class="hero-title">Copy Smarter,<br><span class="text-gradient">Work Faster.</span></h1>
+                <p class="hero-subtitle">The ultimate Chrome extension that auto-copies your selections across the web,
+                    provides instant right-click clipboard history, and supercharges your productivity with Alt+Click
+                    pasting.</p>
+
+                <div class="hero-actions">
+                    <a href="https://chrome.google.com/webstore" target="_blank"
+                        class="btn btn-lg btn-primary pulse-glow">
+                        Add to Chrome — It's Free
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat"><i class="fa-solid fa-shield-halved text-success"></i> 100% Local Storage</div>
+                    <div class="stat"><i class="fa-solid fa-bolt text-warning"></i> Zero Input Delay</div>
+                </div>
+            </div>
+            <div class="hero-visual fade-up delay-1">
+                <div class="visual-card glass">
+                    <div class="browser-mockup">
+                        <div class="browser-header">
+                            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                        </div>
+                        <div class="browser-body">
+                            <div class="mockup-content">
+                                <p>Highlight any text <span class="highlighted">like this to automatically copy
+                                        it</span> without pressing Ctrl+C!</p>
+                                <div class="floating-feedback">Copied!</div>
+
+                                <div class="mockup-menu glass">
+                                    <div class="menu-header">Clipboard History</div>
+                                    <div class="menu-item"><i class="fa-regular fa-clipboard"></i> 1. like this to
+                                        automatically...</div>
+                                    <div class="menu-item"><i class="fa-regular fa-clipboard"></i> 2.
+                                        https://chrome.google.com...</div>
+                                    <div class="menu-item"><i class="fa-regular fa-clipboard"></i> 3. Smart Clipboard is
+                                        awesome</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Brands/Integration Banner -->
+    <section class="ticker-section">
+        <p class="text-center text-muted mb-4 uppercase tracking-widest text-sm">Works seamlessly everywhere, including
+        </p>
+        <div class="logos-container">
+            <i class="fa-brands fa-google text-muted"></i> Docs
+            <i class="fa-regular fa-file-excel text-muted ms-4"></i> Sheets
+            <i class="fa-brands fa-facebook text-muted ms-4"></i> Facebook
+            <i class="fa-brands fa-wordpress text-muted ms-4"></i> WordPress
+            <span class="ms-4 text-muted"><i class="fa-solid fa-globe"></i> Everywhere Else</span>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+        <div class="container">
+            <div class="section-header text-center fade-up">
+                <h2 class="section-title">Everything you need to <span class="text-gradient">type less</span>.</h2>
+                <p class="section-subtitle">Designed for power users, developers, and anyone who copies and pastes a
+                    lot.</p>
+            </div>
+
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card glass fade-up">
+                    <div class="feature-icon bg-gradient">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h3>Auto-Copy Selection</h3>
+                    <p>Stop reaching for Ctrl+C. Just highlight any text on any webpage or click a cell in Google
+                        Sheets, and it's instantly copied to your clipboard.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card glass fade-up delay-1">
+                    <div class="feature-icon bg-gradient">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                    </div>
+                    <h3>Clipboard History</h3>
+                    <p>Never lose a copied link again. Simply right-click anywhere to bring up your last 15 copied items
+                        in a sleek, non-intrusive custom menu.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card glass fade-up delay-2">
+                    <div class="feature-icon bg-gradient">
+                        <i class="fa-solid fa-bolt-lightning"></i>
+                    </div>
+                    <h3>Rapid Alt+Click Paste</h3>
+                    <p>Hold the Alt key and click inside any input field, text area, or rich text editor to instantly
+                        paste your most recent clipboard content.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="feature-card glass fade-up">
+                    <div class="feature-icon bg-gradient">
+                        <i class="fa-solid fa-palette"></i>
+                    </div>
+                    <h3>Customizable Feedback</h3>
+                    <p>Get satisfying visual confirmation ("Copied!" / "Pasted!") right where your cursor is. Customize
+                        colors to match your aesthetic in the popup settings.</p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="feature-card glass fade-up delay-1">
+                    <div class="feature-icon bg-gradient">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3>100% Secure & Private</h3>
+                    <p>Your clipboard history never leaves your device. Data is stored purely in local Chrome storage.
+                        No external servers or analytics tracking.</p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="feature-card glass fade-up delay-2">
+                    <div class="feature-icon bg-gradient">
+                        <i class="fa-solid fa-toggle-on"></i>
+                    </div>
+                    <h3>Easy Master Switch</h3>
+                    <p>Need native browser shortcuts back for a moment? Instantly toggle the extension on or off with a
+                        single switch from the toolbar popup.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works section relative">
+        <div class="bg-glow pointer-none" style="top: 50%; right: 0;"></div>
+        <div class="container">
+            <div class="row items-center">
+                <div class="col-6 pr-lg">
+                    <h2 class="section-title fade-up">Works like magic, <br>installed in <span
+                            class="text-gradient">seconds.</span></h2>
+
+                    <div class="timeline">
+                        <div class="timeline-step fade-up">
+                            <div class="step-num">1</div>
+                            <div class="step-content">
+                                <h4>Install Extension</h4>
+                                <p>Add Smart Clipboard to Chrome from the Web Store. Pin it to your toolbar for easy
+                                    access.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-step fade-up delay-1">
+                            <div class="step-num">2</div>
+                            <div class="step-content">
+                                <h4>Highlight to Copy</h4>
+                                <p>Go to any website. Select text with your mouse. The moment you let go, it's copied.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-step fade-up delay-2">
+                            <div class="step-num">3</div>
+                            <div class="step-content">
+                                <h4>Right Click to Paste</h4>
+                                <p>Right-click in any text box to view your history, or hold <strong>Alt + Left
+                                        Click</strong> for instant pasting.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 img-showcase fade-up delay-1">
+                    <img src="assets/logo.png" alt="Smart Clipboard" class="floating-logo">
+                    <div class="glow-ring"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section section">
+        <div class="container">
+            <div class="cta-card glass text-center fade-up">
+                <h2>Ready to boost your productivity?</h2>
+                <p>Join thousands of power users saving hours of repetitive typing every month.</p>
+                <a href="https://chrome.google.com/webstore" target="_blank"
+                    class="btn btn-lg btn-primary pulse-glow mt-4">
+                    Install Smart Clipboard Today
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="brand">
+                        <img src="assets/logo.png" alt="Logo" class="brand-logo sm">
+                        <span class="brand-name">Smart Clipboard</span>
+                    </a>
+                    <p class="text-muted mt-2">The ultimate selection and clipboard history tool for modern browsers.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Developer</h4>
+                    <ul>
+                        <li><span class="text-muted">Developed by M. Nadeem Akhtar</span></li>
+                        <li><span class="text-muted">Version 1.7</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="year">2026</span> Smart Clipboard. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

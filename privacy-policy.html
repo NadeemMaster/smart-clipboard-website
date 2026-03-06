@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Smart Clipboard</title>
+    <meta name="description"
+        content="Privacy Policy for the Smart Clipboard Chrome Extension. Learn how we handle text selections and local storage.">
+    <meta name="keywords" content="privacy policy, smart clipboard extension, local storage, data privacy">
+    <meta name="author" content="M Nadeem Akhtar">
+    <link rel="canonical" href="https://your-github-username.github.io/smart-clipboard-website/privacy-policy.html" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url"
+        content="https://your-github-username.github.io/smart-clipboard-website/privacy-policy.html">
+    <meta property="og:title" content="Privacy Policy - Smart Clipboard">
+    <meta property="og:description"
+        content="Privacy Policy for the Smart Clipboard Chrome Extension. Learn how we handle text selections and local storage.">
+    <meta property="og:image" content="assets/logo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url"
+        content="https://your-github-username.github.io/smart-clipboard-website/privacy-policy.html">
+    <meta property="twitter:title" content="Privacy Policy - Smart Clipboard">
+    <meta property="twitter:description"
+        content="Privacy Policy for the Smart Clipboard Chrome Extension. Learn how we handle text selections and local storage.">
+    <meta property="twitter:image" content="assets/logo.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="128x128" href="assets/logo.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="container nav-container">
+            <a href="index.html" class="brand">
+                <img src="assets/logo.png" alt="Smart Clipboard Logo" class="brand-logo">
+                <span class="brand-name">Smart Clipboard</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html#features">Features</a>
+                <a href="index.html">Back to Home</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="section pb-0 pt-32">
+        <div class="container text-center fade-up">
+            <h1 class="hero-title" style="font-size: 48px;">Privacy <span class="text-gradient">Policy</span></h1>
+            <p class="text-muted">Effective Date: March 2026</p>
+        </div>
+    </header>
+
+    <!-- Privacy Content -->
+    <section class="section pt-16">
+        <div class="container privacy-content fade-up delay-1">
+            <div class="glass p-8" style="padding: 40px; border-radius: var(--radius-lg);">
+                <p>M Nadeem Akhtar ("Developer", "we", "our", or "us") operates the Smart Clipboard Chrome Extension
+                    (the "Extension"). This page informs you of our policies regarding the collection, use, and
+                    disclosure of personal data when you use our Extension.</p>
+
+                <p>We believe in absolute privacy. Your data belongs to you.</p>
+
+                <h2>1. Information Collection and Use</h2>
+                <p><strong>We do not collect, transmit, or store any of your personal data on external servers.</strong>
+                </p>
+                <p>The core functionality of the Smart Clipboard extension requires intercepting the text you select on
+                    web pages and saving it to your device's clipboard. This action is performed entirely locally within
+                    your browser environment.</p>
+
+                <h2>2. Chrome Local Storage & Permissions</h2>
+                <p>To provide features like the "Clipboard History" custom menu and user preferences (like visual
+                    feedback colors), the Extension utilizes the `chrome.storage` API.</p>
+                <ul>
+                    <li><strong>Clipboard History:</strong> A history of your copied items is saved locally on your
+                        device storage. This data never leaves your computer. You can clear this history at any time
+                        from the Extension's settings popup.</li>
+                    <li><strong>Permissions Explained:</strong>
+                        <ul>
+                            <li><code>clipboardWrite</code>: Required to automate the action of copying selected text
+                                directly to your system clipboard.</li>
+                            <li><code>storage</code>: Required to save your clipboard history and settings locally.</li>
+                            <li><code>scripting</code>: Required to seamlessly update the extension's behavior across
+                                active tabs without forcing you to refresh your web pages.</li>
+                            <li><code>&lt;all_urls&gt;</code>: Required so the auto-copy and paste functionalities work
+                                correctly across all websites you visit.</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h2>3. Analytics and Tracking</h2>
+                <p>We do not use any third-party analytics or tracking tools within the Extension. We do not track the
+                    websites you visit or the content you copy.</p>
+
+                <h2>4. Third-Party Access</h2>
+                <p>We do not sell, trade, or transfer any information to outside parties because we do not collect any
+                    information in the first place.</p>
+
+                <h2>5. Changes to This Privacy Policy</h2>
+                <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the
+                    new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any
+                    changes.</p>
+
+                <h2>6. Contact Us</h2>
+                <p>If you have any questions about this Privacy Policy, please contact the developer via the Chrome Web
+                    Store support tab or email me directly at nadeem@mastertech.com (example).</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer mt-16">
+        <div class="container text-center">
+            <div class="footer-bottom" style="border-top: none;">
+                <p>&copy; <span id="year">2026</span> Smart Clipboard. Developed by M. Nadeem Akhtar.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
