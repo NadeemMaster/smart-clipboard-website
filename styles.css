@@ -100,6 +100,10 @@ a {
     padding: 100px 0;
 }
 
+.pt-32 { padding-top: 128px !important; }
+.pt-16 { padding-top: 64px !important; }
+.pb-0 { padding-bottom: 0 !important; }
+
 .glass {
     background: var(--bg-surface);
     backdrop-filter: blur(16px);
